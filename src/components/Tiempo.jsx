@@ -16,7 +16,7 @@ export function Tiempo(){
     useEffect(()=>{
         const miFuncionTiempo = async () => {
             try {
-            const respuesta = await fetch(`http://api.weatherapi.com/v1/current.json?key=2ea80588605e4cb9bd1232552252210&q=${buscar}&aqi=no`);
+            const respuesta = await fetch(`https://api.weatherapi.com/v1/current.json?key=2ea80588605e4cb9bd1232552252210&q=${buscar}&aqi=no`);
             const datosJson = await respuesta.json();
             console.log(datosJson);
             setDatosTiempo(datosJson);
