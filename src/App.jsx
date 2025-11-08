@@ -3,6 +3,8 @@ import {Link, Route, Routes } from 'react-router'
 import { Inicio } from './Pages/Inicio'
 import { Productos } from './Pages/Productos'
 import { Tarjeta } from './components/Tarjeta' /* Para acceder a usuarios */
+import Tiempo from './Pages/Tiempo';
+
 
 function App() {
  
@@ -32,6 +34,7 @@ function App() {
       <Route path='/' element={<Inicio/>}/>
       <Route path='/clientes' element={<Tarjeta/>}/>
       <Route path='/productos' element={<Productos/>}/>
+      <Route path='/tiempo' element={<Tiempo/>}/>
     </Routes>
     </>
   )
