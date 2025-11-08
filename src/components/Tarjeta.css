@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 20px;
   padding: 30px;
-  background-color: #f4f4f4;
+   background-image: linear-gradient(to right, #a50909,#0f0e0f);
   min-height: 100vh;
 }
 
@@ -54,6 +54,8 @@
   display: block;
   margin: 100px auto;
 }
+
+
 
 @keyframes spin {
   0% {
