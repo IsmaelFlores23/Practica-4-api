@@ -40,7 +40,7 @@ export function Tiempo(){
         }
 
        return(
-        <div className="card mx-auto " style={{width: "320px"}}>
+        <div className="contenedor-tiempo" style={{width: "320px"}}>
           <img
             src={`https:${datosTiempo.current.condition.icon}`}
             className="card-img-top"
@@ -48,7 +48,7 @@ export function Tiempo(){
             style={{width:'90px'}}
           />
             
-            <div className="card-body">
+            <div className="ConteneroTiempo">
                 <h5 className="card-title">Temperatura: {datosTiempo.current.temp_c} °C</h5>
                 <p className="card-text">Lugar:{datosTiempo.location.name}</p>
                 <p className="card-text">Descripcion: {datosTiempo.current.condition.text}</p>

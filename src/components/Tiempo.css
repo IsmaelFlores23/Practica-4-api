@@ -1,0 +1,11 @@
+.contenedor-tiempo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #a50909,#0f0e0f);
+    color: #fff;
+    font-family: comic sans-serif, cursive, sans-serif;
+}
+
