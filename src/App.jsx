@@ -4,6 +4,7 @@ import { Inicio } from './Pages/Inicio'
 import { Productos } from './Pages/Productos'
 import { Tarjeta } from './components/Tarjeta' /* Para acceder a usuarios */
 import Tiempo from './Pages/Tiempo';
+import Divisa from './Pages/Divisa';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Link className="nav-link active" aria-current="inicio" to={"/"}>Inicio</Link>
         <Link className="nav-link" to={"/clientes"}>Clientes</Link>
         <Link className="nav-link" to={"/productos"}>Productos</Link>
-        <Link className="nav-link" to={"/acercade"}>Acerca de</Link>
+        <Link className="nav-link" to={"/divisa"}>Divisa</Link>
         <Link className="nav-link" to={"/tiempo"}>Tiempo</Link>
       </div>
     </div>
@@ -35,6 +36,7 @@ function App() {
       <Route path='/clientes' element={<Tarjeta/>}/>
       <Route path='/productos' element={<Productos/>}/>
       <Route path='/tiempo' element={<Tiempo/>}/>
+      <Route path='/divisa' element={<Divisa/>}/>
     </Routes>
     </>
   )
